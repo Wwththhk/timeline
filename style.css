@@ -46,3 +46,12 @@ body {
 .timeline-contents {
   box-shadow: inset 0 0 20px gold;
 }
+
+.timeline-list li {
+  background-color: orange;
+  width: 50%;
+}
+
+.timeline-list li:nth-child(even) {
+  margin-left: auto;
+}
